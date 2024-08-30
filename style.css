@@ -1,9 +1,9 @@
 /* VARIAVEIS */
 :root {
-    --fundocor: #e3e3e3;
+    --fundocor: #d7e9fd;
     --textocor: #242424;
-    --corquadrado: #8fc5ff;
-    --corminiquadrado: #20a90b;
+    --corquadrado: #99c5f4;
+    --corminiquadrado: #dfdfdf;
 }
 
 /* RESET */
@@ -44,7 +44,8 @@ section {
     display: flex;
     flex-direction: column; 
     justify-content: center;
-    margin: 4% 0 0 0;
+    margin: 4% 0 4% 0;
+    border-radius: 15px;
 }
 
 section h2 {
@@ -59,8 +60,83 @@ section p {
     justify-content: center;
 }
 
-/* OUTROS TAMANHO */
-@media only screen and (min-width: 1000px) {
+.flex-exemplos {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.quadrado {
+    width: 50px;
+    height: 50px;
+    background-color: var(--corminiquadrado);
+    color: var(--textocor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+/* EXEMPLOS ESPECÍFICOS */
+
+.gap {
+    display: flex;
+    gap: 30px;
+}
+
+.align-content {
+    display: flex;
+    align-content: flex-start; 
+    flex-direction: column;
+    height: 150px; 
+}
+
+.align-items {
+    display: flex;
+    align-items: center; 
+    height: 100px; 
+}
+
+.align-self {
+    display: flex;
+    height: 100px; 
+}
+
+.align-self .quadrado:nth-child(2) {
+    align-self: center;
+}
+
+
+.justify-content {
+    display: flex;
+    justify-content: space-between; 
+    width: 200px; 
+}
+
+.flex-wrap {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+
+.flex-grow {
+    display: flex;
+    width: 100%;
+}
+
+.flex-grow .quadrado {
+    flex-grow: 2; 
+}
+
+.flex-direction {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 150px;
+}
+
+@media only screen and (min-width: 1120px) {
     /* VERSÃO DESKTOP */
     
     main {
@@ -71,6 +147,11 @@ section p {
 
     section {
         width: calc(50% - 16px); 
+    }
+
+    .quadrado{
+        height: 100px;
+        width: 100px;
     }
 
 }
