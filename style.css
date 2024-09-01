@@ -24,6 +24,7 @@ body {
 }
 
 /* MOBILE */
+
 header {
     display: flex;
     justify-content: center;
@@ -89,7 +90,6 @@ section p {
 .align-content {
     display: flex;
     align-content: flex-start; 
-    flex-direction: column;
     height: 150px; 
 }
 
@@ -117,7 +117,7 @@ section p {
 
 .flex-wrap {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     gap: 10px;
 }
 
@@ -147,11 +147,6 @@ section p {
 
     section {
         width: calc(50% - 16px); 
-    }
-
-    .quadrado{
-        height: 100px;
-        width: 100px;
     }
 
 }
