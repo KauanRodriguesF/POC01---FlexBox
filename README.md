@@ -1,5 +1,5 @@
 <h1 style="text-align: center;">
-  POC01 - Conceitos Simples e Aplicações sobre Flexbox
+  POC01 - Conceitos Simples e Aplicações sobre Flexbox.
 </h1>
 <p style="color: #34495e; line-height: 1.6;">
   Este repositório é uma prova de conceito (POC) que explora os conceitos básicos e as aplicações práticas do Flexbox, 
