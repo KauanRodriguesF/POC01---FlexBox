@@ -1,4 +1,4 @@
-<div align="center">
+<div align="start">
     <h1>📐 Prova de Conceito - Flexbox 📐</h1>
     <p>Este projeto demonstra o uso do modelo Flexbox para a construção de layouts flexíveis e responsivos, explicando diversas propriedades e seus usos.</p>
 </div>
@@ -25,6 +25,10 @@ A interface é organizada em seções para cada propriedade Flexbox, onde um exe
 - **FLEX WRAP**: Controla se os itens flexíveis devem quebrar em várias linhas.
 - **FLEX GROW**: Define a capacidade de um item flexível de crescer dentro do container.
 - **FLEX DIRECTION**: Define a direção em que os itens flexíveis são dispostos.
+
+- Exemplo Design
+![Screenshot_1](https://github.com/user-attachments/assets/4a39b77c-8035-4b4b-9289-07f9b2ad9ccb)
+
 
 ## 🛠️ Tecnologias Utilizadas
 HTML e CSS
