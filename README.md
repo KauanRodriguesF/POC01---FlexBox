@@ -246,13 +246,14 @@ Neste exemplo, a propriedade `flex-direction` é utilizada para definir a direç
     ```
 
 
-##💡 Conceitos Abordados
+## 💡 Conceitos Abordados
 - **Flexbox**: Sistema de layout unidimensional do CSS que organiza os itens de forma eficiente, distribuindo espaço no container e melhorando a capacidade de resposta do design.
 - **Propriedades Flexbox**: Cada seção explora uma propriedade específica do Flexbox, com explicações claras e exemplos visuais de sua aplicação.
 
-##🔍 Como Visualizar o Projeto
+## 🔍 Como Visualizar o Projeto
 - Clone o repositório para a sua máquina local.
-- Abra o arquivo index.html em seu navegador para visualizar os exemplos de Flexbox.
+- Abra o arquivo `index.html` em seu navegador para visualizar os exemplos de Flexbox.
+
 
 
 
